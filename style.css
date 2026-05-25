@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --gold-clr: hsl(31, 77%, 52%);
+    --cyan-clr: hsl(184, 100%, 22%);
+    --green-clr: hsl(179, 100%, 13%);
+    --p-clr: hsla(0, 0%, 100%, 0.75);
+    --gray-clr: #f2f2f2;
+
+    --p-fs: 0.9375rem;
+
+    --ff-h: "Big Shoulders Display", sans-serif;
+    --ff-text: "Lexend Deca", sans-serif;
+
+    --fw-normal:400;
+    --fw-bold:700;
+}
+
+body{
+    margin: 0;
+    background-color: var(--gray-clr);
+    font-family: var(--ff-text);
+}
+
+.page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 921px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.sedan-card{
+    background-color: var(--gold-clr);
+    --card-clr: hsl(31, 77%, 52%);
+}
+.suv-card{
+    background-color: var(--cyan-clr);
+    --card-clr: hsl(184, 100%, 22%);
+}
+.luxury-card{
+    background-color: var(--green-clr);
+    --card-clr: hsl(179, 100%, 13%);
+}
+
+.card{
+    padding: 66px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-family: var(--ff-h);
+    color: var(--gray-clr);
+    font-weight: var(--fw-bold);
+    font-size: 36px;
+
+}
+
+.description{
+    color: var(--p-clr);
+    font-size: var(--p-fs);
+    font-weight: var(--fw-normal);
+}
+
+
+.know-more{
+   color: var(--card-clr);
+   font-size: var(--p-fs);
+   font-weight: var(--fw-normal);
+   text-decoration: none;
+   background-color: var(--gray-clr);
+   display: block;
+   width: 10rem;
+   height: 2.5rem;
+   border-radius: 24px;
+   margin-top: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: background-color 0.3s, 
+   transform 0.4s, 
+   color 0.2s, 
+   border 0.2s;
+}
+
+.know-more:hover, .know-more:focus{
+    background-color: transparent;
+    transform: translateY(-3px);
+    color: var(--gray-clr);
+    border: 2px solid var(--gray-clr);
+    outline: none;
+}
+
+.know-more:focus-visible{
+    background-color: transparent;
+    color: var(--gray-clr);
+    border: 2px solid var(--gray-clr);
+    outline: none;
+}
+
+@media(min-width: 768px){
+    .cards{
+        flex-direction: row;
+    }
+    .know-more{
+        margin-top: 80px;
+    }
+    .card{
+        padding: 50px;
+    }
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
