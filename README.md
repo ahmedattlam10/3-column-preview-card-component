@@ -20,13 +20,12 @@ Users should be able to:
   <img src="./screenshots/desktop.png" alt="Desktop screenshot" width="60%">
   <img src="./screenshots/mobile.png" alt="Mobile screenshot" width="25%">
 </div>
-![](./screenshot.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/ahmedattlam10/3-column-preview-card-component)
+- Live Site URL: [live site URL](https://ahmedattlam10.github.io/3-column-preview-card-component/)
 
 
 
@@ -42,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [github-profile](https://github.com/ahmedattlam10)
+- Frontend Mentor - [frontend-mentor-profile](https://www.frontendmentor.io/profile/ahmedattlam10)
