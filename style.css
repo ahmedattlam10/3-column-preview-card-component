@@ -55,7 +55,7 @@ body{
 }
 
 .card{
-    padding: 66px;
+    padding: 4.125rem;
 }
 
 .title{
@@ -63,7 +63,7 @@ body{
     font-family: var(--ff-h);
     color: var(--gray-clr);
     font-weight: var(--fw-bold);
-    font-size: 36px;
+    font-size: 2.25rem;
 
 }
 
@@ -80,7 +80,6 @@ body{
    font-weight: var(--fw-normal);
    text-decoration: none;
    background-color: var(--gray-clr);
-   display: block;
    width: 10rem;
    height: 2.5rem;
    border-radius: 24px;
@@ -100,14 +99,12 @@ body{
     transform: translateY(-3px);
     color: var(--gray-clr);
     border: 2px solid var(--gray-clr);
-    outline: none;
 }
 
 .know-more:focus-visible{
     background-color: transparent;
     color: var(--gray-clr);
     border: 2px solid var(--gray-clr);
-    outline: none;
 }
 
 @media(min-width: 768px){
